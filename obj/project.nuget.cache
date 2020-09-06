@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "NtAnydWPRRztR07HaoP0dTdYWa7x6YqOMdsY3R1kmSnNISnaHWgteKkViTlPG92tZ/E9GR2SAk0RROHIU8t5jg==",
+  "success": true,
+  "projectFilePath": "/home/zicso/Desktop/extra_projects/TestWebApp/TestWebApp.csproj",
+  "expectedPackageFiles": [
+    "/home/zicso/.nuget/packages/microsoft.aspnet.signalr.core/2.4.1/microsoft.aspnet.signalr.core.2.4.1.nupkg.sha512",
+    "/home/zicso/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/zicso/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "/home/zicso/.nuget/packages/system.runtime/4.3.0/system.runtime.4.3.0.nupkg.sha512",
+    "/home/zicso/.nuget/packages/system.threading.tasks/4.3.0/system.threading.tasks.4.3.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.SignalR.Core 2.4.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.SignalR.Core",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

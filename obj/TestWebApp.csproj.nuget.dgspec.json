@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/zicso/Desktop/extra_projects/TestWebApp/TestWebApp.csproj": {}
+  },
+  "projects": {
+    "/home/zicso/Desktop/extra_projects/TestWebApp/TestWebApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/zicso/Desktop/extra_projects/TestWebApp/TestWebApp.csproj",
+        "projectName": "TestWebApp",
+        "projectPath": "/home/zicso/Desktop/extra_projects/TestWebApp/TestWebApp.csproj",
+        "packagesPath": "/home/zicso/.nuget/packages/",
+        "outputPath": "/home/zicso/Desktop/extra_projects/TestWebApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/zicso/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNet.SignalR.Core": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "System.Threading.Tasks": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
